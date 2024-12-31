@@ -1,0 +1,30 @@
+services:
+  authjs-docker-test:
+    build: .
+    environment:
+      - DATABASE_HOST=db
+      - DATABASE_PORT=3306
+      - DATABASE_USER=testing-user
+      - DATABASE_PASSWORD=imaninsecurepassword
+      - DATABASE_NAME=authjs-docker-test
+      - AUTH_SECRET="imsomekindofsecretfortestinganddemopurposes"
+      - AUTH_URL=http://localhost:3000/auth
+    ports:
+      - "3000:3000"
+
+  # The database, this can be any database that mikro-orm supports (only mariadb is tested in this example)
+  db:
+    image: mariadb:latest
+    environment:
+      - MARIADB_ROOT_PASSWORD=imaninsecurepassword
+      - MARIADB_DATABASE=auth
+      - MARIADB_USER=testing-user
+      - MARIADB_PASSWORD=imaninsecurepassword
+    ports:
+      - "3306:3306"
+
+  # adminer is a web-based database management tool this is optional and used for debugging purposes
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
