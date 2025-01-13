@@ -393,12 +393,21 @@
     knex "3.1.0"
     sqlstring "2.3.3"
 
-"@mikro-orm/mariadb@^6.4.2":
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/mariadb/-/mariadb-6.4.2.tgz#9d174d6c4301ec9d37a965cf5bbf9625a1a72c73"
-  integrity sha512-Ua2dE/Y/ozC5GYxukwaV1k/6nFL71/YNsnI65sOFGVFzxZLeMrgY4fbWBW/EZSZgZWcxvlDefhG9U8228R8cbA==
+"@mikro-orm/knex@6.4.3":
+  version "6.4.3"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/knex/-/knex-6.4.3.tgz#b7501bf50a56be0e3b643370ada965db848a213f"
+  integrity sha512-gVkRD/cIn6qxk/P9nR+IufZxJwuCCdv0AtcGvShxXXvaoIrQPJYDV7HRxBOHCEyNygr6M3Fqpph1oPoT6aezTQ==
   dependencies:
-    "@mikro-orm/knex" "6.4.2"
+    fs-extra "11.2.0"
+    knex "3.1.0"
+    sqlstring "2.3.3"
+
+"@mikro-orm/mariadb@^6.4.3":
+  version "6.4.3"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/mariadb/-/mariadb-6.4.3.tgz#0d7b8f578855577f0d1904d5eae1058647035b73"
+  integrity sha512-TLLCp3vVjWyQVm/WRQZhvxqSc9V6JD5UbuoUAyNqh3rT0ud/3BxxOebUv6vqGwGLERdF3z2AwpvOdchAEIDqJg==
+  dependencies:
+    "@mikro-orm/knex" "6.4.3"
     mariadb "3.4.0"
 
 "@mikro-orm/migrations@^6.4.2":
