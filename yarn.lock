@@ -418,10 +418,10 @@
     globby "11.1.0"
     ts-morph "24.0.0"
 
-"@mikro-orm/seeder@^6.4.2":
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/seeder/-/seeder-6.4.2.tgz#82f022115fa143c5c009d233553e9134741fa0c6"
-  integrity sha512-2B5JBX/G/kfj4pEVyyBO+lf7wJnpEpplflESAvKzBwp5w2Y5y7jUjZaTmYrtpNuawRdf0zhmj5qQRmPR9vWugA==
+"@mikro-orm/seeder@^6.4.3":
+  version "6.4.3"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/seeder/-/seeder-6.4.3.tgz#aadf5b6eab14f1c7d0ed67d40b93d02da6291976"
+  integrity sha512-wxByIr29zXVBiWNkXj99dEu6dSb3Vv72LBiqkExUToeBWCLgZr74b/QPY5lpiVdIcfyNdlijUdCjX40cDcJuDQ==
   dependencies:
     fs-extra "11.2.0"
     globby "11.1.0"
