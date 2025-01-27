@@ -371,7 +371,7 @@
     tsconfig-paths "4.2.0"
     yargs "17.7.2"
 
-"@mikro-orm/core@6.4.2", "@mikro-orm/core@^6.4.2":
+"@mikro-orm/core@6.4.2":
   version "6.4.2"
   resolved "https://registry.yarnpkg.com/@mikro-orm/core/-/core-6.4.2.tgz#8e80f8e9163c1d8505c41a3d0fcd9f313271271d"
   integrity sha512-sk+rGxZoj8zx9q819CeXLqMMLXF81s7pQZtrdg3XUCBnUVqsaVIsbBj5WpyojQXmCvxgenWqDE/ybM5ftbDP/w==
@@ -382,6 +382,19 @@
     fs-extra "11.2.0"
     globby "11.1.0"
     mikro-orm "6.4.2"
+    reflect-metadata "0.2.2"
+
+"@mikro-orm/core@^6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/core/-/core-6.4.4.tgz#8afbe475be2a289744b45d5e70b84e1c120817e6"
+  integrity sha512-1Ff+fJX7pZFaZt9ebFxPW2w8yDp/uz2VhSMqqop1538VRvTqHseTRI+2Tmm9oX5pm5y5YS7+FdgnyAx6FLWjHg==
+  dependencies:
+    dataloader "2.2.3"
+    dotenv "16.4.7"
+    esprima "4.0.1"
+    fs-extra "11.3.0"
+    globby "11.1.0"
+    mikro-orm "6.4.4"
     reflect-metadata "0.2.2"
 
 "@mikro-orm/knex@6.4.2":
@@ -2236,6 +2249,15 @@ fs-extra@11.2.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
+fs-extra@11.3.0:
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.3.0.tgz#0daced136bbaf65a555a326719af931adc7a314d"
+  integrity sha512-Z4XaCL6dUDHfP/jT25jJKMmtxvuwbkrD1vNSMFlo9lNLY2c5FHYSQgHPRZUjAB26TpDEoW9HCOgplrdbaPV/ew==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
 fs-extra@~7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
@@ -2937,6 +2959,11 @@ mikro-orm@6.4.2:
   version "6.4.2"
   resolved "https://registry.yarnpkg.com/mikro-orm/-/mikro-orm-6.4.2.tgz#b95de724eba0babd0d5df22582e8195ea0a8d772"
   integrity sha512-PyivHOk8wlN16fzFv8fTfMXrTj9nWQ6Cnzi49twsVHVr1HUQuhFKMJUV/n0HlEdYBiQj0UK1pN4wNGo7h3nNGQ==
+
+mikro-orm@6.4.4:
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/mikro-orm/-/mikro-orm-6.4.4.tgz#75f8dde9545a893fb33045325a97f30802a76221"
+  integrity sha512-nHV0lZnPUwidqeVyJwBegKDW9KwTxfH5yNp0aGSud9EI0mFkjK/M4EVfh+vwg/y6gdSIu9UnwDORYP2hJw96dQ==
 
 minimatch@^3.1.2:
   version "3.1.2"
