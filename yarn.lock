@@ -384,6 +384,15 @@
     mikro-orm "6.4.2"
     reflect-metadata "0.2.2"
 
+"@mikro-orm/knex@6.4.10":
+  version "6.4.10"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/knex/-/knex-6.4.10.tgz#bc4f6e8c9b698f5832b0fe5f7642cde1e5106e60"
+  integrity sha512-u/v4Vj4cCiGRgCxzXC+iCDB8ciUnRPg0WsKX7Fu2tUFPwOlRZvJmU7hFUXfkOLRaxpAUgdzb7UPTeNmXqVaCBA==
+  dependencies:
+    fs-extra "11.3.0"
+    knex "3.1.0"
+    sqlstring "2.3.3"
+
 "@mikro-orm/knex@6.4.2":
   version "6.4.2"
   resolved "https://registry.yarnpkg.com/@mikro-orm/knex/-/knex-6.4.2.tgz#f8dee9c1a4766e5d459b546fbd0c86ad7369b688"
@@ -393,12 +402,12 @@
     knex "3.1.0"
     sqlstring "2.3.3"
 
-"@mikro-orm/mariadb@^6.4.2":
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/mariadb/-/mariadb-6.4.2.tgz#9d174d6c4301ec9d37a965cf5bbf9625a1a72c73"
-  integrity sha512-Ua2dE/Y/ozC5GYxukwaV1k/6nFL71/YNsnI65sOFGVFzxZLeMrgY4fbWBW/EZSZgZWcxvlDefhG9U8228R8cbA==
+"@mikro-orm/mariadb@^6.4.10":
+  version "6.4.10"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/mariadb/-/mariadb-6.4.10.tgz#b76d32323cdfea9f689be89647180cfc8b770bcc"
+  integrity sha512-IYIdpGdNrcX8gnOdRXmlzSottp1mtDaiViRN9ls5eadUhasvL5InkZZOtHBZM0bGRocxiMLenlAttsL/UN+FxA==
   dependencies:
-    "@mikro-orm/knex" "6.4.2"
+    "@mikro-orm/knex" "6.4.10"
     mariadb "3.4.0"
 
 "@mikro-orm/migrations@^6.4.2":
@@ -2231,6 +2240,15 @@ fs-extra@11.2.0:
   version "11.2.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.2.0.tgz#e70e17dfad64232287d01929399e0ea7c86b0e5b"
   integrity sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
+fs-extra@11.3.0:
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.3.0.tgz#0daced136bbaf65a555a326719af931adc7a314d"
+  integrity sha512-Z4XaCL6dUDHfP/jT25jJKMmtxvuwbkrD1vNSMFlo9lNLY2c5FHYSQgHPRZUjAB26TpDEoW9HCOgplrdbaPV/ew==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
